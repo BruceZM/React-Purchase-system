@@ -1,0 +1,105 @@
+.ad-wrap{
+    padding: 10px;
+    background-color: #fff
+}
+.ad-top{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E7E7
+}
+.ad-top-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-bottom: 5px
+}
+.ad-bot{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.handle-address{
+    display: flex;
+}
+.fixed-bottom-button{
+    height:60px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    max-width:768px;
+    background-color: transparent;
+    z-index: 21;
+}
+.fixed-bottom-button a,.fixed-bottom-button button{
+    width:80%;
+    margin:0 auto;
+    display:block;
+    border-radius:25px;
+    height:45px;
+    line-height: 45px;
+    background:#44BAAE;
+    color:#fff!important;
+    font-size:16px;
+    text-align: center
+}
+body .am-list-item .am-list-line .am-list-extra {
+    flex-basis: initial;
+}
+.check-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 5px 7px 0;
+    font-size: 15px;
+    color: #969696
+}
+.check-info-add{
+    font-size: 14px;
+    padding: 0 5px 5px 0;
+    white-space: initial;
+    color: #969696
+}
+.order-modal{
+    display: flex;
+    padding: 10px;
+    background: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-modal img{
+    width: 70px
+}
+.order-modal h3{
+    font-size: 20px;
+    color: #44BAAE;
+    font-weight: bold
+}
+body .order-modal a{
+    display: block;
+    background: #44BAAE;
+    width: 70%;
+    height: 30px;
+    line-height:30px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
+.order-modal a img{
+    width: 20px;
+    padding-right: 5px
+}
+.order-m-bottom{
+    text-align: left;
+    margin-top: 10px;
+    position: relative;
+    padding-top: 10px
+}
+.order-m-bottom:after{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    background-color: #E7E7E7;
+    content:''
+}

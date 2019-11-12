@@ -1,0 +1,25 @@
+.o-c-btn-combine{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px
+}
+.o-c-btn-combine .look-up-logistics{
+    padding: 0 5px;
+    border-radius: 20px;
+    border: 1px solid #C83B4C;
+    color: #C83B4C;
+    min-width: 80px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.o-c-btn-combine .check_confirm{
+    padding: 0 5px;
+    border-radius: 20px;
+    border: 1px solid #44BAAE;
+    min-width: 80px;
+    color: #44BAAE;
+    height: 30px;   
+    line-height: 30px;
+    margin-left: 5px
+}

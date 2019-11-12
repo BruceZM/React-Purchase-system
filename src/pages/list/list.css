@@ -1,0 +1,22 @@
+
+.search-top a{
+    text-align: left;
+    width: 10%;
+    font-size: 14px;
+    color: #333
+}
+.search-top .search-right{
+    width: 90%;
+}
+.search-top .search-right img{
+    width: 100%;
+    max-width: 400px;
+    max-height: 40px
+}
+.nav-intro-btn{
+    width: 100%;
+    background-size: cover
+}
+.slider-list{
+    min-height: 160px
+}
